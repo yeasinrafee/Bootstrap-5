@@ -6,35 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <title>Grid</title>
-
-    <style>
-      [class*="col"] {
-        padding: 1rem;
-        background-color: #33b5e5;
-        border: 2px solid #fff;
-        color: #fff;
-      }
-    </style>
   </head>
   <body>
-    <h2 class="my-5 text-center">Example 01</h2>
-    <div class="container">
+    <div class="container-lg my-5">
+      <h2>basic grid</h2>
       <div class="row">
-        <div class="col">1</div>
-        <div class="col">2</div>
-        <div class="col">3</div>
-      </div>
-      <div class="row">
-        <div class="col-sm">1</div>
-        <div class="col-sm">2</div>
+        <div class="col">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
+
+        <div class="col">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
+
+        <div class="col">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
+
+        <div class="col">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
       </div>
     </div>
 
-    <h2 class="my-5 text-center">Example 2</h2>
-    <div class="container my-5">
+    <div class="container-lg my-5">
+      <h2>column widths</h2>
       <div class="row">
-        <div class="col-md-8">Main Section</div>
-        <div class="col-md-4">Side Bar</div>
+        <div class="col-6">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
+
+        <div class="col-3">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
+
+        <div class="col-3">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg my-5">
+      <h2>Responsive column width</h2>
+      <div class="row">
+        <div class="col-lg-6 col-sm-4">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
+
+        <div class="col-lg-3 col-sm-4">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
+
+        <div class="col-lg-3 col-sm-4">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-lg my-5">
+      <h2>justifying column</h2>
+      <div class="row justify-content-between">
+        <div class="col-md-3">
+          <div class="p-5 bg-primary text-light">col-1</div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-5 bg-primary text-light">col-2</div>
+        </div>
+        <div class="col-md-3">
+          <div class="p-5 bg-primary text-light">col-3</div>
+        </div>
       </div>
     </div>
     <script
