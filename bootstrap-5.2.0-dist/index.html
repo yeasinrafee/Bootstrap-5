@@ -61,6 +61,11 @@
             <li class="nav-item me-4">
               <a class="nav-link" href="#review">Review</a>
             </li>
+            <li class="nav-item me-4">
+              <a class="nav-link btn btn-primary btn-sm" href="#signin"
+                >Sign In</a
+              >
+            </li>
           </ul>
         </div>
       </div>
@@ -363,11 +368,11 @@
       </div>
     </section>
 
-    <!-- Contact Form Section  -->
-    <section id="contact">
+    <!-- Sign In Form Section  -->
+    <section id="signin">
       <div class="container-lg">
         <div class="text-center mb-5">
-          <h2>Contact With us</h2>
+          <h2>Sign in here</h2>
           <p class="text-muted"
             >You can easily take our service or get all the information by
             signing in</p
@@ -448,6 +453,79 @@
         </form>
       </div>
     </section>
+
+    <section class="More-info bg-light">
+      <div class="container-md">
+        <div class="text-center mb-5">
+          <h2>Get More Information</h2>
+          <p class="text-muted mx-5"
+            >You can get more information by reading the text below and clicking
+            on the more button</p
+          >
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-9">
+            <p
+              >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam
+              expedita cumque non suscipit omnis exercitationem rerum, minus
+              nisi distinctio doloribus sapiente temporibus beatae, pariatur
+              autem deleniti eos amet soluta illo quaerat. Dolor asperiores,
+              fuga suscipit eum eos laudantium perspiciatis!</p
+            >
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-toggle="modal"
+              data-bs-target="#moreModal"
+            >
+              More
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="moreModal"
+      data-bs-backdrop="static"
+      data-bs-keyboard="false"
+      tabindex="-1"
+      aria-labelledby="staticBackdropLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="staticBackdropLabel">Learn More</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body"
+            >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error,
+            culpa asperiores tempora est, tempore voluptatibus nulla quisquam
+            molestiae corrupti dicta laudantium dolorum cumque magni? Nulla, in
+            culpa? Ullam vel in nobis beatae id explicabo fuga sequi illum qui
+            quisquam? Perspiciatis! Lorem ipsum dolor, sit amet consectetur
+            adipisicing elit. Numquam qui ex doloremque, totam assumenda ducimus
+            minus maiores fuga ratione optio.</div
+          >
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+              >Close</button
+            >
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
