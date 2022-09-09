@@ -78,14 +78,16 @@
             <p class="lead my-4 text-muted"
               >Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea!</p
             >
-            <a href="#" class="btn btn-secondary btn-lg">Find now</a>
+            <a href="#find" class="btn btn-secondary btn-lg">Find now</a>
           </div>
           <div class="col-md-5 text-center d-none d-md-block">
-            <img
-              class="img-fluid rounded-2"
-              src="assets/elia-pellegrini-VqX-Jg-jqjA-unsplash.jpg"
-              alt="Girl's picture"
-            />
+            <span class="tt" data-bs-placement="bottom" title="Gone Girl Cover">
+              <img
+                class="img-fluid rounded-2"
+                src="assets/elia-pellegrini-VqX-Jg-jqjA-unsplash.jpg"
+                alt="Girl's picture"
+              />
+            </span>
           </div>
         </div>
       </div>
@@ -453,5 +455,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/bootstrap.js"></script>
+    <script>
+      const tooltips = document.querySelectorAll(".tt");
+      tooltips.forEach((t) => {
+        new bootstrap.Tooltip(t);
+      });
+    </script>
   </body>
 </html>
