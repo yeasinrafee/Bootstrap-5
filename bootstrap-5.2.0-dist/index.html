@@ -11,15 +11,19 @@
       section {
         padding: 60px 0;
       }
+      .logo {
+        color: #777;
+      }
+      .logo:hover {
+        color: #222;
+      }
     </style>
   </head>
   <body>
     <!-- Nav-bar Section  -->
     <nav class="navbar navbar-expand-md fixed-top bg-light">
       <div class="container-xxl">
-        <a class="navbar-brand text-muted" href="#hero"
-          >Gone-Girl Find you Love</a
-        >
+        <a class="navbar-brand logo" href="#hero">Gone-Girl Find you Love</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -42,7 +46,7 @@
               >
             </li>
             <li class="nav-item me-4">
-              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#find">Find</a>
             </li>
             <li class="nav-item me-4">
               <a class="nav-link" href="#pricing">Pricing</a>
@@ -140,6 +144,110 @@
                 <a href="#" class="btn btn-outline-primary btn-lg mt-3"
                   >Buy Now</a
                 >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Finding  -->
+    <section id="find">
+      <div class="container">
+        <div class="text-center">
+          <h4>Find Your Girl</h4>
+          <p class="text-muted"
+            >Now you can easily find your girl by following this steps</p
+          >
+        </div>
+
+        <div class="row my-5 align-items-center justify-content-around g-5">
+          <div class="col-8 col-lg-4">
+            <img
+              src="assets/find-girl.jpg"
+              alt="Girl's picture"
+              class="img-fluid rounded-3"
+            />
+          </div>
+
+          <!-- Accordion  -->
+          <div class="accordion col-lg-6" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button
+                  class="accordion-button"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne"
+                  aria-expanded="true"
+                  aria-controls="collapseOne"
+                >
+                  Step #1
+                </button>
+              </h2>
+              <div
+                id="collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="headingOne"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Facilis distinctio vero consectetur similique nostrum rem
+                  quaerat a quos delectus nisi.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="collapseTwo"
+                >
+                  Step #2
+                </button>
+              </h2>
+              <div
+                id="collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingTwo"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Expedita vitae fugit quasi corrupti mollitia possimus soluta
+                  alias consequuntur corporis sapiente.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree"
+                  aria-expanded="false"
+                  aria-controls="collapseThree"
+                >
+                  Step #3
+                </button>
+              </h2>
+              <div
+                id="collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="headingThree"
+                data-bs-parent="#accordionExample"
+              >
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Exercitationem, eos. Sit cumque tempora rerum magni pariatur
+                  reprehenderit, nam id cupiditate?
+                </div>
               </div>
             </div>
           </div>
